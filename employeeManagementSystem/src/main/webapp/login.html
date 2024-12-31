@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/login.css" />
+  </head>
+  <body style="background-color:beige ;">
+    <main id="login">
+      <h1 style="color: black">Login</h1>
+      <section style="width: 400px; background-color: orange">
+        <div>
+          <form action="login" method="post">
+            <table cellspacing="20px">
+              <tr>
+                <td><label for="eid">EID</label></td>
+                <td>
+                  <input
+                    type="text"
+                    name="eid"
+                    id="eid"
+                    placeholder="EID"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="password">Password</label></td>
+                <td>
+                  <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="Password"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="center"><button>Login</button></td>
+              </tr>
+            </table>
+          </form>
+          <form action="">
+            <div>
+              <p>Dont't have an account?</p>
+              <button type="submit" formaction="./create-acc.html">
+                Redirect to Registration
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
